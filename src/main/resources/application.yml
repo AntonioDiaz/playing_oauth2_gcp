@@ -5,7 +5,7 @@ spring:
       client:
         registration:
           google:
-            client-id: 747954516128-b5kbjmrg5nbtboqc287h67cnfa0vp82j.apps.googleusercontent.com
+            client-id: ${client-id}
             client-secret: ${client-secret}
             scope: openid,profile,email
       resourceserver:
